@@ -1,15 +1,13 @@
 target=999;
 
+// My Solution
 function Multiples3or5(num) {
     let i=num;
     let sum=8;
 
     for (;i>5;i--){
-        if (i%3===0)
+        if (i%3===0 || i%5===0)
             sum+=i;
-        else
-            if (i%5===0)
-                sum+=i;
     }
 
     return sum;
