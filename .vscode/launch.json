@@ -1,0 +1,55 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "Launch sumPrimes",
+        "program": "${workspaceFolder}/SumPrimes.js",
+        "request": "launch",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "pwa-node"
+    },
+    {
+        "name": "Launch convertHTML",
+        "program": "${workspaceFolder}/convertHTML.js",
+        "request": "launch",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "pwa-node"
+    },
+
+        {
+            "name": "Launch pairElement",
+            "program": "${workspaceFolder}/pairElement.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+        "name": "Launch PigLatin",
+        "program": "${workspaceFolder}/PigLatin.js",
+        "request": "launch",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "pwa-node"
+    },
+    
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch JavaScript",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\SeekAndDestroy.js"
+        }
+    ]
+}
