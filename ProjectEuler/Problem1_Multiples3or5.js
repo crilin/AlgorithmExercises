@@ -15,12 +15,14 @@ function Multiples3or5(num) {
 
 Multiples3or5(target);
 
-//EULER SOLUTION
+//******************************************************
+//**               EULER SOLUTION                     **
+//******************************************************
 function SumDivisibleBy(n) {
     let p= target / n;
 
     return n * (p* (p+1)) / 2;
 }
 
-//optimized answer
+//**optimized answer**
 SumDivisibleBy(3) + SumDivisibleBy(5) - SumDivisibleBy(15);
